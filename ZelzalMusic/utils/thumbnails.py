@@ -124,11 +124,11 @@ async def get_thumb(videoid):
 
             image4 = ImageDraw.Draw(image2)
             image4.text(
-                (10, 10), " Source DARK", fill="white", font=font1, align="left"
+                (10, 10), " Source TERBO", fill="white", font=font1, align="left"
             )
             image4.text(
                 (670, 150),
-                "DaRk PlAYiNg",
+                "TERBO PlAYiNg",
                 fill="white",
                 font=font2,
                 stroke_width=1,
@@ -178,4 +178,3 @@ async def get_thumb(videoid):
     except Exception as e:
         print(e)
         return YOUTUBE_IMG_URL
-
