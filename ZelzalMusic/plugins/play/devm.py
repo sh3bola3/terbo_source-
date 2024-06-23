@@ -14,7 +14,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 
 from pyrogram.errors import MessageNotModified
 
-from ZeMusic import app
+from ZelzalMusic import app
 
 from config import OWNER_ID, LOGGER_ID
 
@@ -131,4 +131,3 @@ async def zdatsr(client: Client, message: Message):
                                      f"<b>⌯ يوزر المجموعه {chatusername}</b>",
 
                                      reply_markup=reply_markup)
-
