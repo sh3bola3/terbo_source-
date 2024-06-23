@@ -9,8 +9,8 @@ import random
 from pyrogram import Client, filters, emoji
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from strings.filters import command
-from ZeMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
-from ZeMusic import app
+from ZelzalMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from ZelzalMusic import app
 from random import  choice, randint
 
 #          
@@ -44,4 +44,4 @@ async def huhh(client: Client, message: Message):
 
         ),
 
-    )
+)
